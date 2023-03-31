@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Demo Web App test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="reusableComponents.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="tests(failed)">
+    <classes>
+      <class name="tests.TestCase">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="TaskCreationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TestCase -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Demo Web App test Suite] -->

@@ -1,0 +1,5 @@
+[INFO ] 2023-03-29 15:53:05.768 - testBase.MyLogger:startTestCase 16==>  
+
+************** Execution Started : testCase3**************
+
+[INFO ] 2023-03-29 15:53:05.774 - tests.TestCase:testCase3 25==>  Log for first test case
